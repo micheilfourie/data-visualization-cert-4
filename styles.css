@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#title{
+    margin: 40px 0;
+    font-size: 3rem;
+}
+
+#description{
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+#legend{
+    position: absolute;
+    translate: calc(-50% + 500px) calc(-50% + 640px);
+    color: black;
+}
+
+#tooltip{
+    position: absolute;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: none;
+    opacity: .90;
+    font-size: 12px;
+}
+
+.county:hover{
+    stroke: black;
+}
